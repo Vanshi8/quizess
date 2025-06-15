@@ -1,0 +1,10 @@
+Quiz Code: QXTTNN, Time Limit: 10
+Question: who is chotu
+Options: sultanpuri, don, khachri, tannu
+Correct Answer: B
+Question: who is his favourite person
+Options: me, mummy, mukul, papa
+Correct Answer: C
+Inserting Question: who is chotu
+Option1: , Option2: , Option3: , Option4: 
+Correct Answer: B

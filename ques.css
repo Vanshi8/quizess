@@ -1,0 +1,239 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #83a4d4, #b6fbff);
+    min-height: 100vh;
+    color: #333;
+    overflow-y: auto;
+}
+
+h1 {
+    color: #444;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0 0 20px;
+    font-weight: 600;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+/* Input Groups */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input[type="text"],
+.input-group input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.input-group input:focus,
+textarea:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #4caf50;
+    color: white;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background: #43a047;
+    transform: translateY(-2px);
+}
+
+.primary-btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.submit-btn {
+    width: 100%;
+    background: #333;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background: #222;
+}
+
+/* Dynamic Question Form Section */
+.question-form {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in;
+}
+
+.question-form h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.question-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.question-options input[type="text"] {
+    padding: 8px;
+}
+
+.correct-answer {
+    margin-top: 10px;
+}
+
+.correct-answer label {
+    font-weight: bold;
+}
+
+/* Review Section */
+.review-section {
+    margin-top: 20px;
+}
+
+.review-item {
+    background: #e3f2fd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-item h4 {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.review-item ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.review-item ul li {
+    background: #f1f1f1;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Edit and Delete Buttons */
+.edit-btn,
+.delete-btn {
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+.edit-btn {
+    background-color: #42a5f5;
+    margin-right: 5px;
+}
+
+.edit-btn:hover {
+    background-color: #1e88e5;
+}
+
+.delete-btn {
+    background-color: #ef5350;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+/* Quiz Code Section */
+.quiz-code-display {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    color: #444;
+}
+
+.code-generation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .question-options {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+}

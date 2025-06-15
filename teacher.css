@@ -1,0 +1,83 @@
+/* teacher.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    background: #1A2980; 
+    background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  
+    background: linear-gradient(to left, #26D0CE, #1A2980); 
+
+    height: 100vh;
+}
+
+/* Container for the form */
+.registration-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px 3px rgb(43, 50, 87);
+    border-radius: 20px;
+    background: #16222A;  
+    background: -webkit-linear-gradient(to bottom, #3A6073, #16222A); 
+    background: linear-gradient(to bottom, #3A6073, #16222A); 
+}
+
+h1 {
+    text-align: center;
+
+}
+
+/* Styling for form groups (labels and inputs) */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1f3d20;
+}
+
+/* Placeholder styling */
+input::placeholder {
+    color: #888;
+}
+
+/* Focus styling */
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+    .registration-container {
+        width: 100%;
+        padding: 15px;
+    }
+}

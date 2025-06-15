@@ -1,0 +1,132 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Background and text styling */
+body {
+    background: #f0f4f7;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Center the content in the page */
+.result-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for result container */
+.result-container:hover {
+    transform: translateY(-5px);
+}
+
+/* Styling for the title */
+.result-title {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+    letter-spacing: 1px;
+}
+
+/* Result details styling */
+.result-details {
+    margin: 30px 0;
+}
+
+.score-message,
+.percentage-message {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #2980b9;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* Buttons styling */
+.result-actions {
+    margin-top: 40px;
+}
+
+.retry-btn,
+.home-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+    font-weight: bold;
+}
+
+/* Button colors */
+.retry-btn {
+    background-color: #f39c12;
+}
+
+.home-btn {
+    background-color: #2ecc71;
+}
+
+/* Hover effects for buttons */
+.retry-btn:hover,
+.home-btn:hover {
+    transform: scale(1.05);
+}
+
+.retry-btn:hover {
+    background-color: #e67e22;
+}
+
+.home-btn:hover {
+    background-color: #27ae60;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 768px) {
+    .result-container {
+        padding: 25px;
+    }
+
+    .result-title {
+        font-size: 1.8rem;
+    }
+
+    .score-message,
+    .percentage-message {
+        font-size: 1.1rem;
+    }
+
+    .retry-btn,
+    .home-btn {
+        padding: 10px 20px;
+    }
+}

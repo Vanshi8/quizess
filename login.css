@@ -1,0 +1,138 @@
+/* login.css*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    width: 800px;
+    height: 500px;
+   background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   border-radius: 20px;
+   box-shadow: 0 0 15px 3px rgb(43, 50, 87);
+}
+
+.login-container {
+    font-family: Arial, sans-serif;
+    /*  background-color: #f7f7f7;*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      /* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); */
+      background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+      /* background-color: #1db596;
+      background-image: linear-gradient(90deg, #1db596 0%, #435ac1 100%); */
+      /* background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%); */
+   
+      
+}
+
+ .leftlogin{
+    border-top-left-radius: 20px;
+    border-end-start-radius: 20px;
+    background-color: #87CEEB;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 50%;
+} 
+
+.rightlogin{
+    height: 500px;
+    width: 50%;
+}
+
+#img1{
+    height: 500px;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-end-end-radius: 20px;
+    background-color: #87CEEB;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+label{
+    margin-left: 25px;
+    font-family: Arial, sans-serif;  /* Sets the font */
+    font-size: 16px;                 
+    font-weight: bold;   
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 350px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+select{
+    width: 350px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+button {
+    width: 350px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f3d20;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #0c177c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* #username{
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 380px;
+}
+#pass{
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 380px;
+}
+#submit{
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 380px;
+} */

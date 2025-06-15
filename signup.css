@@ -1,0 +1,149 @@
+/* signup.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Container for the form */
+.signup-container {
+    font-family: Arial, sans-serif;
+   /* background-color: #f7f7f7;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1db596;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    
+}
+select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+
+    font-size: 14px;
+    border-radius: 10px;
+}
+.signup{
+    width: 820px;
+    height: 560px;
+   background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   border-radius: 20px;
+   box-shadow: 0 0 15px 3px rgb(43, 50, 87);
+}
+
+.leftsign{
+    background: white;
+    padding: 30px;
+    border-top-left-radius: 20px;
+    border-end-start-radius: 20px;
+    height: 560px;
+    width: 50%;
+    background-color: #87CEEB;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+.rightsign{
+    height: 560px;
+    width: 50%;
+}
+#img1{
+    height: 560px;
+    width: 410px;
+    border-top-right-radius: 20px;
+    border-end-end-radius: 20px;
+    background-color: #87CEEB;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    
+}
+
+/* Title and heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+/* Style for form inputs */
+.input-group {
+    margin-bottom: 15px;
+    
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #1f3d20;
+    
+}
+
+/* Link and extra text styling */
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+a {
+    color: #0c177c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* #username{
+    border-radius: 10px;
+}
+#email{
+    border-radius: 10px;
+}
+#pass{
+    border-radius: 10px;
+}
+#confirm-pass{
+    border-radius: 10px;
+}
+#submit{
+    border-radius: 10px;
+} */
+.error-box {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
